@@ -1,0 +1,19 @@
+# Python
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Data and local databases
+data/
+*.duckdb
+*.duckdb.wal
+
+# Secrets
+**/.dlt/secrets.toml
+*-key.json
+.env
+
+# dbt build output
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/

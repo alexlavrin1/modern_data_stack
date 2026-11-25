@@ -1,0 +1,3 @@
+# dlt settings (committed). No secrets here.
+[runtime]
+log_level = "WARNING"
